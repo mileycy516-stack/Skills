@@ -1,0 +1,98 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables - CRITICAL: Never commit these
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+*.env
+
+# API Keys and Tokens
+**/secrets/
+**/credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Personal notes and journals
+**/notas-personales/
+**/notes-private/
+**/diario/
+**/journal/
+**/trading-journal/
+**/personal/
+*.personal.*
+*-personal.*
+
+# Trading and financial data
+**/trades-data/
+**/financial/
+**/balances/
+*.csv
+*.xlsx
+*.xls
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Cache
+.cache/
+*.cache
+.parcel-cache/
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Python specific (if applicable)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+venv/
+.venv/
+ENV/
+
+# Antigravity brain (conversation-specific data)
+.gemini/
