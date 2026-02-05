@@ -1,0 +1,13 @@
+{
+    "name": "playwright-browser-automation",
+    "version": "4.0.0",
+    "description": "Complete browser automation with Playwright",
+    "main": "run.js",
+    "scripts": {
+        "setup": "npm install && npx playwright install chromium",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "playwright": "^1.49.1"
+    }
+}
