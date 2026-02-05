@@ -2,6 +2,15 @@
 
 > **🚀 Start Here**: View the [Master Skill Index](./INDEX.md) to see the full menu of capabilities and how to use them.
 
+## 🌍 How to use this Stack globally
+To install this **Vibe Coding Stack** in any other project, run:
+
+```bash
+npx skills add mileycy516-stack/Skills
+```
+
+This will instantly infuse your project with all the skills, templates, and frameworks defined here.
+
 This repository contains agentic skills for the AI assistant, inspired by the `superpowers` repository.
 
 ## Structure
